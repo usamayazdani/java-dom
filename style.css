@@ -1,0 +1,70 @@
+h1{
+    color: blue;
+    text-align: center;
+}
+#grid{
+background-color: blueviolet;
+display: grid;
+grid-template-columns: auto;
+grid-column: auto;
+grid-row: auto;
+
+}
+.grid-item{
+    background-color: brown;
+    font-size: medium;
+    padding: inherit;
+    
+}
+div{
+    #containers{
+        display: flex;
+        flex-wrap:wrap;
+    }
+    #containers  >div{
+        background-color: blueviolet;
+        font-size: medium;
+        margin: 20px;
+        padding: 20px;
+        width: 90px;
+    }
+    background-color: brown;
+    height: auto;
+    width: auto;
+    padding: 20px;
+    margin: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    font-weight: lighter;
+
+}
+/* its is used to specific some id */
+#foo{
+    color: lawngreen;
+}
+/* now . is used to class */
+.aa{
+    color: lightseagreen;
+}
+/* pereference  */
+/* when you have a same applied to same at more then like you apply heading to change and and id is also apply to chnge color ther there is pereference is applie */
+/* inline 
+    id
+    class
+    type
+*/
+ul li{
+    color: aqua;
+}
+/* so here is we use when we work on computer our backr=ground color change
+and when we are on mobile there is length of pixels is change so we use this typw of code to change the color */
+@media(min-width:600px){
+    body{
+        background-color: aqua;
+    }
+}
+@media(::-ms-expand:){
+    body{
+        background-color: blanchedalmond;
+    };
+}
